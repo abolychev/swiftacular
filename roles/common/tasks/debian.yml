@@ -18,7 +18,7 @@
 # Package cache
 #
 
-- include: debian_package_cache.yml
+#- include: debian_package_cache.yml
 
 #
 # Havana repository
