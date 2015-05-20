@@ -107,9 +107,9 @@
     - container
     - object
 
-- name: copy over *-replication.conf files
-  template: src={{ item }}-replication.conf.j2 dest=/etc/swift/{{ item }}-server/{{ item }}-replication.conf owner=swift group=swift mode=0644
-  with_items:
-    - account
-    - container
-    - object
+#- name: copy over *-replication.conf files
+#  template: src={{ item }}-replication.conf.j2 dest=/etc/swift/{{ item }}-server/{{ item }}-replication.conf owner=swift group=swift mode=0644
+#  with_items:
+#    - account
+#    - container
+#    - object
