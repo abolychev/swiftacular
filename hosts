@@ -1,30 +1,30 @@
 
 # Keystone
 [authentication]
-swift ansible_ssh_host=10.92.30.3
+swift ansible_ssh_host=192.168.100.20
 
 # Loadbalancing and SSL
 [lbssl]
-swift ansible_ssh_host=10.92.30.3
+swift ansible_ssh_host=192.168.100.20
 
 # A place to run swift cli tests
 [swiftclient]
-swift ansible_ssh_host=10.92.30.3
+swift ansible_ssh_host=192.168.100.20
 
 # Gauntlt is for running security checks
 # See: http://gauntlt.org/
 [gauntlt]
-swift ansible_ssh_host=10.92.30.3
+swift ansible_ssh_host=192.168.100.20
 
 # apt-cacher-ng
 [package_cache]
-swift ansible_ssh_host=10.92.30.3
+swift ansible_ssh_host=192.168.100.20
 
 # Swift proxy node
 [proxy]
-swift ansible_ssh_host=10.92.30.3
+swift ansible_ssh_host=192.168.100.20
 
 # Swift storage node
 [storage]
-swift-storage-01 ansible_ssh_host=10.92.30.3
-swift-storage-02 ansible_ssh_host=10.92.30.4
+swift-storage-01 ansible_ssh_host=192.168.100.20
+swift-storage-02 ansible_ssh_host=192.168.100.21
